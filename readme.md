@@ -1,10 +1,16 @@
-# HTMl and CSS clone of The Next Web (TNW)
+# HTML and CSS clone of The Next Web (TNW)
 
-Original website: https://thenextweb.com/
+## About
 
-The objective of this exercise was to practice responsive design. My approach was to focus on making containers responsive (so I did the entire layout first), and as far as possible I made contents fit to the container (e.g. making contents size as a percentage of the container).
+This is a clone of [The Next Web](https://thenextweb.com/)'s home page. The objective of this exercise was to practice responsive design. My approach was to focus on making containers responsive (so I did the entire layout first without content), and then as far as possible I made content fit responsively to its container (e.g. making contents size as a percentage of the container).
 
-## How
+### Live Demo
+
+[GitHub Pages](https://kath-ldn.github.io/thenextweb-clone/)
+
+### Built with
+
+HTML & CSS
 
 For the responsive design specifically I used:
 - Media queries
@@ -13,15 +19,26 @@ For the responsive design specifically I used:
 - CSS grid for overall layouts, refining columns and rows as the screen resizes
 - Flexbox for grid cells/navbars
 
-## Known issues
-- Although I used DevTools for things like getting specific colors, getting images and icons, I didn't use them to inspect and copy the overall layout.
-- Therefore things like margins, gradients, padding, positining, and sizings are not pixel perfect!
-- The reason I did this was to practice (and get errors) so that I could learn how to do the responsive design rather than copying and pasting.
-- Animations - I haven't covered these at the point of developing this, so will add them in future.
-- Some of the visual effects (such as the way the logo resizes when scrolling down at 768px wide) are only achievable with JS (I think!). As this is part of the HTML/CSS module I haven't integrated JS. Therefore some of the visuals (e.g. the Header) aren't quite the same as the original TNW. However, I have incorporated the relevant HTML/CSS so I am ok with this.
-- If I were being picky I'd go through again and ensure that margins/padding/font sizes/colors are really consistent.
-- I would also go through the style sheet and see if there are any more areas I could rationalise/avoid repetition.
-- If I were doing this outside of the learning exercise I would have done more of it with JS as I think it would have been quicker - e.g. adding HTML elements via JS rather than all individually.
+## Prerequisites & Installation
 
+No special requirements.
 
-### ALL CONTENT MAY BE COPYRIGHT THENEXTWEB - THIS IS JUST FOR LEARNING PURPOSES.
+## Roadmap
+
+None planned - this was a learning project. I may update in future in line with the below.
+
+### Known Issues
+
+* Although I used Dev Tools for getting specific colors, images and icons, I didn't use them to inspect and copy the overall layout. Therefore things like margins, gradients, padding, positining, and sizings are not pixel perfect! The reason I did this was to practice (and get errors) so that I could learn how to do the responsive design rather than copying and pasting.
+* I hadn't covered animations in the HTML/CSS module, and haven't added hovers etc. Therefore the page doesn't feel as interactive as the original. I may update this in future, but have other examples where I have done this effectively.
+* Some of the visual effects (such as the way the logo resizes when scrolling down at 768px wide) are only achievable with JS (I think!). As this is part of the HTML/CSS module I haven't integrated JS. If I were doing this outside of the learning exercise I would have done more of it with JS as I think it would have been more efficient - e.g. adding HTML elements via JS rather than all individually.
+* The CSS could likely be rationalised to reduce repetition.
+
+## Acknowledgements
+
+* Google Fonts
+* CSS-Tricks
+* GitHub Pages
+* MeyerWeb (reset sheet)
+
+ALL CONTENT MAY BE COPYRIGHT THENEXTWEB - THIS IS JUST FOR MY LEARNING PURPOSES.
